@@ -5,24 +5,27 @@
 [![License](https://img.shields.io/cocoapods/l/BZHBaseKit.svg?style=flat)](https://cocoapods.org/pods/BZHBaseKit)
 [![Platform](https://img.shields.io/cocoapods/p/BZHBaseKit.svg?style=flat)](https://cocoapods.org/pods/BZHBaseKit)
 
-## Example
+## 实例
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## 更新说明
+```
+0.1.0
+1.增加协议方案
+2.增加基础控件扩展
+```
 
-## Installation
+## 安装
 
-BZHBaseKit is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'BZHBaseKit'
 ```
 
-## Author
+## 作者
 
-hanssea, jianye0209@yeah.net
+hanssea, hanssea09@gmail.com
 
 ## License
 
