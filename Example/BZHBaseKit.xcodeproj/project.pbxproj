@@ -23,12 +23,6 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9C3D05434B04E69EE41AC1FF /* Pods_BZHBaseKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA37F45EFF1409FDA5BB2A43 /* Pods_BZHBaseKit_Tests.framework */; };
-		AB74CDEA231907D300941EC2 /* UIView+BZHView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB74CDE9231907D300941EC2 /* UIView+BZHView.m */; };
-		AB74CDEE2319095E00941EC2 /* UIImage+BZHimage.m in Sources */ = {isa = PBXBuildFile; fileRef = AB74CDED2319095E00941EC2 /* UIImage+BZHimage.m */; };
-		AB74CDF1231909E000941EC2 /* NSString+BZHString.m in Sources */ = {isa = PBXBuildFile; fileRef = AB74CDF0231909E000941EC2 /* NSString+BZHString.m */; };
-		AB74CDF423190A9900941EC2 /* UIButton+BZHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AB74CDF323190A9900941EC2 /* UIButton+BZHButton.m */; };
-		AB74CDF723190CB700941EC2 /* UITextView+BZHTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB74CDF623190CB700941EC2 /* UITextView+BZHTextView.m */; };
-		AB74CDFA231917BE00941EC2 /* UIBarButtonItem+BZHBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB74CDF9231917BE00941EC2 /* UIBarButtonItem+BZHBarButtonItem.m */; };
 		D1F449A60570C81EC4C860F8 /* Pods_BZHBaseKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64908917E3AD32F3B0CAB9C /* Pods_BZHBaseKit_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,21 +62,6 @@
 		7B90520CAB44E80896626F1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C749BEB75CE6F5E173FA309 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		AB0A6E442319052400FE9CB4 /* BZHBaseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BZHBaseKit.h; sourceTree = "<group>"; };
-		AB0A6E48231905D500FE9CB4 /* BZHViewModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BZHViewModelProtocol.h; sourceTree = "<group>"; };
-		AB74CDE8231907D300941EC2 /* UIView+BZHView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+BZHView.h"; sourceTree = "<group>"; };
-		AB74CDE9231907D300941EC2 /* UIView+BZHView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+BZHView.m"; sourceTree = "<group>"; };
-		AB74CDEB2319081600941EC2 /* BZHViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BZHViewProtocol.h; sourceTree = "<group>"; };
-		AB74CDEC2319095E00941EC2 /* UIImage+BZHimage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+BZHimage.h"; sourceTree = "<group>"; };
-		AB74CDED2319095E00941EC2 /* UIImage+BZHimage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BZHimage.m"; sourceTree = "<group>"; };
-		AB74CDEF231909E000941EC2 /* NSString+BZHString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+BZHString.h"; sourceTree = "<group>"; };
-		AB74CDF0231909E000941EC2 /* NSString+BZHString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+BZHString.m"; sourceTree = "<group>"; };
-		AB74CDF223190A9900941EC2 /* UIButton+BZHButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+BZHButton.h"; sourceTree = "<group>"; };
-		AB74CDF323190A9900941EC2 /* UIButton+BZHButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BZHButton.m"; sourceTree = "<group>"; };
-		AB74CDF523190CB700941EC2 /* UITextView+BZHTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+BZHTextView.h"; sourceTree = "<group>"; };
-		AB74CDF623190CB700941EC2 /* UITextView+BZHTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BZHTextView.m"; sourceTree = "<group>"; };
-		AB74CDF8231917BE00941EC2 /* UIBarButtonItem+BZHBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BZHBarButtonItem.h"; sourceTree = "<group>"; };
-		AB74CDF9231917BE00941EC2 /* UIBarButtonItem+BZHBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BZHBarButtonItem.m"; sourceTree = "<group>"; };
 		BA37F45EFF1409FDA5BB2A43 /* Pods_BZHBaseKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BZHBaseKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64908917E3AD32F3B0CAB9C /* Pods_BZHBaseKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BZHBaseKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6AB5B75AA97DFC77A2E22EE /* Pods-BZHBaseKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BZHBaseKit_Example.release.xcconfig"; path = "Target Support Files/Pods-BZHBaseKit_Example/Pods-BZHBaseKit_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,7 +132,6 @@
 		6003F593195388D20070C39A /* Example for BZHBaseKit */ = {
 			isa = PBXGroup;
 			children = (
-				AB0A6E43231904EC00FE9CB4 /* BZHBaseKit */,
 				6003F59C195388D20070C39A /* BZHAppDelegate.h */,
 				6003F59D195388D20070C39A /* BZHAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -205,28 +183,6 @@
 				9C749BEB75CE6F5E173FA309 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		AB0A6E43231904EC00FE9CB4 /* BZHBaseKit */ = {
-			isa = PBXGroup;
-			children = (
-				AB0A6E442319052400FE9CB4 /* BZHBaseKit.h */,
-				AB0A6E48231905D500FE9CB4 /* BZHViewModelProtocol.h */,
-				AB74CDEB2319081600941EC2 /* BZHViewProtocol.h */,
-				AB74CDE8231907D300941EC2 /* UIView+BZHView.h */,
-				AB74CDE9231907D300941EC2 /* UIView+BZHView.m */,
-				AB74CDEC2319095E00941EC2 /* UIImage+BZHimage.h */,
-				AB74CDED2319095E00941EC2 /* UIImage+BZHimage.m */,
-				AB74CDEF231909E000941EC2 /* NSString+BZHString.h */,
-				AB74CDF0231909E000941EC2 /* NSString+BZHString.m */,
-				AB74CDF223190A9900941EC2 /* UIButton+BZHButton.h */,
-				AB74CDF323190A9900941EC2 /* UIButton+BZHButton.m */,
-				AB74CDF523190CB700941EC2 /* UITextView+BZHTextView.h */,
-				AB74CDF623190CB700941EC2 /* UITextView+BZHTextView.m */,
-				AB74CDF8231917BE00941EC2 /* UIBarButtonItem+BZHBarButtonItem.h */,
-				AB74CDF9231917BE00941EC2 /* UIBarButtonItem+BZHBarButtonItem.m */,
-			);
-			path = BZHBaseKit;
 			sourceTree = "<group>";
 		};
 		C9CE2F7AA753195F24DE9002 /* Pods */ = {
@@ -412,15 +368,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB74CDF723190CB700941EC2 /* UITextView+BZHTextView.m in Sources */,
-				AB74CDF423190A9900941EC2 /* UIButton+BZHButton.m in Sources */,
 				6003F59E195388D20070C39A /* BZHAppDelegate.m in Sources */,
-				AB74CDF1231909E000941EC2 /* NSString+BZHString.m in Sources */,
-				AB74CDEE2319095E00941EC2 /* UIImage+BZHimage.m in Sources */,
 				6003F5A7195388D20070C39A /* BZHViewController.m in Sources */,
-				AB74CDEA231907D300941EC2 /* UIView+BZHView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				AB74CDFA231917BE00941EC2 /* UIBarButtonItem+BZHBarButtonItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
