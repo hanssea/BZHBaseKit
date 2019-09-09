@@ -22,6 +22,7 @@
 #import "UIButton+BZHButton.h"
 #import "UITextView+BZHTextView.h"
 #import "UIControl+BZHControl.h"
+#import "BZHMacrodefinition.h"
 
 
 
