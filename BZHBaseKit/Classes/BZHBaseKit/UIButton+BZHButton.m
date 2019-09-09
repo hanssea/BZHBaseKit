@@ -53,13 +53,12 @@
     [self setImageEdgeInsets:UIEdgeInsetsMake(0.0, titleSize.width,0.0,-titleSize.width)];
 }
 
-+ (UIButton *)bzhButtonWithTitle:(NSString *)title titleColor:(UIColor *)titleColor font:(UIFont*)font backgroundColor:(UIColor *)backgroundColor flag:(NSString *)flag
++ (UIButton *)bzhButtonWithTitle:(NSString *)title titleColor:(UIColor *)titleColor font:(UIFont*)font backgroundColor:(UIColor *)backgroundColor
 {
     UIButton *looter=[UIButton buttonWithType:UIButtonTypeCustom];
     looter.backgroundColor=backgroundColor;
     [looter setTitle:title forState:0];
     looter.titleLabel.font=font;
-    looter.flag=flag;
     [looter setTitleColor:titleColor forState:0];
     return looter;
 }

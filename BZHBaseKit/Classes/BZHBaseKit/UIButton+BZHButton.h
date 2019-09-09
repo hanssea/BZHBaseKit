@@ -38,10 +38,9 @@ NS_ASSUME_NONNULL_BEGIN
  @param titleColor 标题颜色
  @param font 字体大小
  @param backgroundColor 背景颜色
- @param flag 标记
  @return 返回自定义按钮
  */
-+ (UIButton *)bzhButtonWithTitle:(NSString *)title titleColor:(UIColor *)titleColor font:(UIFont*)font backgroundColor:(UIColor *)backgroundColor flag:(NSString *)flag;
++ (UIButton *)bzhButtonWithTitle:(NSString *)title titleColor:(UIColor *)titleColor font:(UIFont*)font backgroundColor:(UIColor *)backgroundColor;
 @end
 
 NS_ASSUME_NONNULL_END
